@@ -1,3 +1,15 @@
+
+TO RUN PROGRAM:
+cd 01.\ redis-image
+docker build .
+
+To Tag image using community convention, you can type alernate build command:
+> docker build -t rahul/redis:latest
+
+--
+Notes
+--
+
 First example of running docker:
 > docker run hello-world
 
@@ -34,7 +46,6 @@ Stuff you type into terminal will get directed to docker process and back out to
 > docker exec -it <container_id> sh
 # ls
 
------
-
-cd 01.\ redis-image
-docker build .
+Tagging an image (so you don't have to reference the container id)
+Convention to use: docker run <DockerId>/<Repo/ProjectName>:Version
+> docker run stephengrider/redis:latest
