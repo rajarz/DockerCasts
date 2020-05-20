@@ -1,0 +1,13 @@
+{
+  "name": "simpleweb",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  ""
+}
